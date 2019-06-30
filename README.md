@@ -1,7 +1,20 @@
-# 爬虫测试案例
+[toc]
 
+# 爬虫方法
 
+## DuiTang
 
-## 目录
+- duitang_find:find查找链接
 
-- 堆糖图片：20190625_duitang
+```
+label = urllib.parse.quote(label)  # 中文转url编码
+while page.find(startpart, end) != -1
+```
+- duitang_json:结构化查找
+
+## LaGou
+
+- lagou-sqlite：数据保存sqlite
+- lagou-mongo：数据保存mongodb
+- getthreading：多线程查询
+- getmultiprocessing：多进程查询
